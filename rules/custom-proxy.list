@@ -1,0 +1,7 @@
+# 自定义代理规则（一行一条，只写规则本体，策略由主配置的 force-policy=代理选择 统一指定）
+# 写法示例（去掉行首的 # 即可生效）：
+# host, example.com
+# host-suffix, example.org
+# host-keyword, example
+# ip-cidr, 198.51.100.0/24
+# 需要加规则时告诉噜噜，或直接编辑本文件提交。
